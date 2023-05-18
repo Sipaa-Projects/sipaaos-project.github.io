@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("water.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    background: #0066FF;
+    border: none;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 10px;
+    padding: 16px 22px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+ 
+button:hover {
+    background: #0066FF80;
+    border: none;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 10px;
+    padding: 16px 22px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+ 
+
+.description {
+    align-items: left;
+    text-align: left;
+    color:white;
+    background-color: #00000082;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description h1 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.description p {
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+    color:white;
+    background-color: #000000AB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title h2 {
+    font-weight: 500;
+}
+
+.topnav {
+    background-color: rgba(24, 24, 27, 0.85);
+    backdrop-filter: blur(30px);
+    border-bottom: 2px solid;
+    border-bottom-color: #FFFFFF20;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 10px;
+    padding: 16px 22px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 4px;
+}
+ 
+.topnav img {
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    align-self: middle;
+}
+
+.topnav a:hover {
+    background-color: #0066FF80;
+    color: white;
+}
+  
+.topnav a.active {
+    background-color: #0066FF;
+    color: white;
+}
